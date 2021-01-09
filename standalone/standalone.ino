@@ -27,11 +27,9 @@ Joystick_ joystick;
 
 
 // Pedal parameters
-#define MAX_AXIS 1024
+#define MAX_AXIS 1023
 #define ARRAY_SIZE 1
-#define DEAD_ZONE 22
-  
-// 35
+#define DEAD_ZONE 35
 
 //////////////////////////////// SHIFTER /////////////////////////////////
 // Shifter pin definitions
