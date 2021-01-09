@@ -535,9 +535,9 @@ void read_pedals()
   Joystick.Y(Brake.axis);
   Joystick.Z(Clutch.axis);
 #else
-  joystick.setXAxis(Gas.axis);
-  joystick.setYAxis(Brake.axis);
-  joystick.setZAxis(Clutch.axis);
+  joystick.setRxAxis(Gas.axis);
+  joystick.setRyAxis(Brake.axis);
+  joystick.setRzAxis(Clutch.axis);
 #endif 
 
 #if DEBUG_SERIAL && DEBUG_PEDALS
@@ -558,9 +558,9 @@ void setup() {
 #else
   // Initialize Joystick Library
   joystick.begin(false);
-  joystick.setXAxisRange(0, MAX_AXIS);
-  joystick.setYAxisRange(0, MAX_AXIS);
-  joystick.setZAxisRange(0, MAX_AXIS);
+  joystick.setRxAxisRange(0, MAX_AXIS);
+  joystick.setRyAxisRange(0, MAX_AXIS);
+  joystick.setRzAxisRange(0, MAX_AXIS);
 #endif
 
 #if DEBUG_SERIAL
