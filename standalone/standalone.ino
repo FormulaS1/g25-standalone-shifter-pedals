@@ -72,8 +72,8 @@ Joystick_ joystick;
 #define SHIFTER_SEQ_DOWN_THRES  650
 
 #else
-#define SHIFTER_X_12      375
-#define SHIFTER_X_56      650
+#define SHIFTER_X_12      460
+#define SHIFTER_X_56      700
 #define SHIFTER_Y_135     800
 #define SHIFTER_Y_246     300
 
