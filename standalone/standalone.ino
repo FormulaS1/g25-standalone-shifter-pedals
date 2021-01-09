@@ -14,9 +14,9 @@
 Joystick_ joystick;
 #endif
 
-#define DEBUG_SERIAL 1
-#define DEBUG_SHIFTER 1
-#define DEBUG_PEDALS 0
+#define DEBUG_SERIAL 0
+#define DEBUG_SHIFTER 0
+#define DEBUG_PEDALS 1
 
 #define DEBUG_SERIAL_MS 30
 
